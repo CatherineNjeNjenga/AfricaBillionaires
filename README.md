@@ -2,27 +2,27 @@
 <!--
 ## [LIVE LINK](https://e-kars.herokuapp.com/)
 -->
-Africa's Billionaires is a .
+Africa's Billionaires is a data visualization app built with PrimeReact UI components, React and a PostgreSQL database in Supabase.
 
-![E-Kars Demo](images/ekars_gif_1.gif)
-_E-Kars Overview_
+![Africa's Billionaires Demo](images/ekars_gif_1.gif)
+_Africa's Billionaires Overview_
 
-![E-Kars Home Page](images/ekars_homepage.gif)
-_E-Kars Home Page_
+![Africa's Billionaires Home Page](images/ekars_homepage.gif)
+_Africa's Billionaires Home Page_
 
-On the products page, you can place multiple filters with the sidebar on the left. Using Redux was extremely useful in order to pass multiple levels of state between each React component.
+On the landing page, you can view the profile for each individual. Then for a summary of the individual, click on the name to be re-directed to Forbes's website.
 
-![E-Kars Demo](images/ekars_productsPage.gif)
-_E-Kars Product Page_
+![Africa's Billionaires Demo](images/ekars_productsPage.gif)
+_Africa's Billionaires Landing Page_
 
-I created a custom form using Stripe for check out. However, to get to this page, you must be logged in first. See below to use my test account!
+I used custom components to create the table and a row for the profile of each individual. I collected the data to ensure accuracy and saved it on Supabase to access it using PostgreSQL!
 
 ![E-Kars Stripe](images/ekars_stripe_checkout2.gif)
 _E-Kars Stripe Payment Demo_
 
 ## Technologies Used
 
-React.js, Redux, Node.js/Express, MongoDB/Mongoose, Stripe, Nodemailer
+React.js, PrimeReact, PostgreSQL, Supabase
 
 ## Getting Started
 
@@ -38,11 +38,7 @@ To get the project up and running, complete the following steps:
 
 ![Ekars Login](images/ekars_login.png)
 
-Feel free to browse with the intention of buying a few cars. Upon proceeding to checkout, you will be asked to login before being allowed to proceed with the purchase.
-You can use my ID & PW for testing. However, if you want to see what the "forgot password" workflow is like, you can register your own email, or refer to the gif below!
-
-`ID: bryancodes@gmail.com`
-`PW:123456`
+Feel free to check-out each individual's profile. There will be a yearly change to keep the data updated!
 
 ![E-Kars Forgot Password Workflow](images/ekars_forgotpassword.gif)
 _E-Kars Stripe Payment Demo_
